@@ -1,12 +1,17 @@
 import java.util.Scanner;
 
 public class Calculator {
+    /**
+     * Comentarios a la clase principal
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double num1, num2, result;
         char operator;
         
         System.out.print("Enter the first number: ");
+        System.out.println("ola mundo");
         num1 = input.nextDouble();
         
         System.out.print("Enter the second number: ");
